@@ -1,0 +1,9 @@
+torch==1.4.0
+torchvision==0.5.0
+timm==0.3.2
+numpy
+Pillow
+einops
+tensorboardX
+torch-dct
+cv2
