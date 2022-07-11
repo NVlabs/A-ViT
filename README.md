@@ -141,7 +141,7 @@ Some examples (**Left** - ImageNet validation image 224x224, unseen during train
 
 <img src="./example_images/class51_combined.jpg" height = 160px> <img src="./example_images/class127_combined.jpg" height = 160px>
 
-Note that this is a quick demo from an intermediate checkpoint of tiny a-vit. We observe the distribution will continue to slightly converge upon higher accuracy and full training. Analyzing other checkpoints is very easily supported by changing the loading of .pth files. Please feel free to generate more examples using the **--demo** key, or more via **visualize.py** function in **engine_act.py**.
+ Please feel free to generate more examples using the **--demo** key, or more via **visualize.py** function in **engine_act.py**. Note that the snippet is a very quick demo from an intermediate checkpoint of tiny a-vit. We observe the distribution will continue to slightly converge upon higher accuracy. Analyzing other checkpoint is very easily supported by changing the loading of .pth files, and distribution semantic meaning holds.
 
 ## License
 
