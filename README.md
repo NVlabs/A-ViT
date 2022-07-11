@@ -119,7 +119,7 @@ tar -xzf <path to your downloaded folder>/a-vit-weights.tar.gz ./a-vit-weights
 </table>
 
 
-For evaluation, simple append the following snippet to the training script above, with **nproc_per_node** set as 1:
+For evaluation, simply append the following snippet to the training script with **nproc_per_node** set as 1:
 ```bash
 --eval --finetune <path to ckpt folder>/{name of chekpoint}
 ```
